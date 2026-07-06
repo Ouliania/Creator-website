@@ -79,7 +79,7 @@ const projectsData: Project[] = [
     category: 'Реклама помады',
     col1Img1: '/images/case07/closeup.jpeg',
     col1Img2: '/images/case07/main.jpeg',
-    col2Img: '/videos/case7_video.mp4',
+    col2Img: '/videos/lip_gloss_08.mp4',
     link: '#',
   },
 ];
