@@ -77,9 +77,9 @@ const projectsData: Project[] = [
     num: '07',
     name: 'Lipstick Design',
     category: 'Реклама помады',
-    col1Img1: '/videos/case7_video.mp4',
-    col1Img2: '/images/case07/closeup.jpeg',
-    col2Img: '/images/case07/main.jpeg',
+    col1Img1: '/images/case07/closeup.jpeg',
+    col1Img2: '/images/case07/main.jpeg',
+    col2Img: '/videos/case7_video.mp4',
     link: '#',
   },
 ];
