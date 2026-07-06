@@ -170,7 +170,7 @@ export const HeroSection: React.FC = () => {
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
-          <ContactButton onClick={() => handleScroll('contact-section')} label={t.heroCTA} />
+          <ContactButton onClick={() => window.open('https://t.me/ulyanakirp', '_blank')} label={t.heroCTA} />
         </FadeIn>
       </div>
     </section>

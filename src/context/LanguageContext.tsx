@@ -72,8 +72,13 @@ export const translations = {
       },
       {
         num: '06',
-        name: 'Праздник в коробке',
+        name: 'Holiday in a Box',
         category: 'Event Decoration',
+      },
+      {
+        num: '07',
+        name: 'Lipstick Design',
+        category: 'Lipstick Promo',
       },
     ],
     pricingTitle: 'Timeline & Cost',
@@ -193,6 +198,11 @@ export const translations = {
         num: '06',
         name: 'Праздник в коробке',
         category: 'Оформление праздников',
+      },
+      {
+        num: '07',
+        name: 'Lipstick Design',
+        category: 'Реклама помады',
       },
     ],
     pricingTitle: 'Сроки и цены',
