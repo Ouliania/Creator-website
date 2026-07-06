@@ -12,16 +12,16 @@ export const WorkflowSection: React.FC = () => {
     offset: ['start end', 'end start'],
   });
 
-  // Left side (Smiley): drifts rightwards, dips down, spins, scales
-  const smileyX = useTransform(scrollYProgress, [0, 1], [-20, 120]);
-  const smileyY = useTransform(scrollYProgress, [0, 1], [-30, 140]);
-  const smileyRotate = useTransform(scrollYProgress, [0, 1], [0, 280]);
+  // Left side (Smiley): drifts rightwards, dips down, spins, scales on a curved (S-curve) path
+  const smileyX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-40, 60, -10, 110]);
+  const smileyY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-30, 25, 85, 150]);
+  const smileyRotate = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [0, 120, 180, 320]);
   const smileyScale = useTransform(scrollYProgress, [0, 0.5, 1], [0.85, 1.15, 0.85]);
 
-  // Right side (Arrow): mirrors the left — drifts leftwards, dips down, spins opposite, scales
-  const arrowX = useTransform(scrollYProgress, [0, 1], [20, -120]);
-  const arrowY = useTransform(scrollYProgress, [0, 1], [-30, 140]);
-  const arrowRotate = useTransform(scrollYProgress, [0, 1], [0, -280]);
+  // Right side (Arrow): mirrors the left — drifts leftwards, dips down, spins opposite, scales on a curved path
+  const arrowX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [40, -60, 10, -110]);
+  const arrowY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-30, 25, 85, 150]);
+  const arrowRotate = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [0, -120, -180, -320]);
   const arrowScale = useTransform(scrollYProgress, [0, 0.5, 1], [0.85, 1.15, 0.85]);
 
   return (
