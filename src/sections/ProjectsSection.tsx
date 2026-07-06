@@ -104,6 +104,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalCards })
   const scale = useTransform(scrollYProgress, [0, 1], [1, targetScale]);
 
   const translatedCategory = t.projects[index]?.category || project.category;
+  const translatedName = t.projects[index]?.name || project.name;
 
   return (
     <div
@@ -131,7 +132,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalCards })
                 {translatedCategory}
               </span>
               <h3 className="text-base sm:text-xl md:text-3xl font-black uppercase text-[#D7E2EA] leading-tight">
-                {project.name}
+                {translatedName}
               </h3>
             </div>
           </div>
@@ -164,7 +165,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalCards })
               ) : (
                 <img
                   src={project.col1Img1}
-                  alt={`${project.name} Details 1`}
+                  alt={`${translatedName} Details 1`}
                   className="w-full h-full object-cover select-none transition-transform duration-500 ease-out hover:scale-105"
                   loading="lazy"
                   draggable={false}
@@ -178,7 +179,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalCards })
             >
               <img
                 src={project.col1Img2}
-                alt={`${project.name} Details 2`}
+                alt={`${translatedName} Details 2`}
                 className="w-full h-full object-cover select-none transition-transform duration-500 ease-out hover:scale-105"
                 loading="lazy"
                 draggable={false}
@@ -201,7 +202,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalCards })
             ) : (
               <img
                 src={project.col2Img}
-                alt={`${project.name} Showcase`}
+                alt={`${translatedName} Showcase`}
                 className="w-full h-full object-cover select-none transition-transform duration-500 ease-out hover:scale-105"
                 loading="lazy"
                 draggable={false}
