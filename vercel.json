@@ -7,7 +7,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/(favicon|apple-touch-icon).*\\.(ico|png|svg)",
+      "source": "/favicon.svg",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
