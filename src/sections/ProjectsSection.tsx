@@ -48,8 +48,8 @@ const projectsData: Project[] = [
   },
   {
     num: '04',
-    name: 'Solaris Digital',
-    category: 'Бренд сумок',
+    name: 'Бренд сумок',
+    category: 'Рекламная кампания',
     col1Img1: '/images/case03/front.jpeg',
     col1Img2: '/images/case03/closeup.jpeg',
     col2Img: '/videos/case3_main.mp4',

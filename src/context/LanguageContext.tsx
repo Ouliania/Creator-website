@@ -62,8 +62,8 @@ export const translations = {
       },
       {
         num: '04',
-        name: 'Solaris Digital',
-        category: 'Bag Brand',
+        name: 'Bag Brand',
+        category: 'Advertising Campaign',
       },
       {
         num: '05',
@@ -186,8 +186,8 @@ export const translations = {
       },
       {
         num: '04',
-        name: 'Solaris Digital',
-        category: 'Бренд сумок',
+        name: 'Бренд сумок',
+        category: 'Рекламная кампания',
       },
       {
         num: '05',
