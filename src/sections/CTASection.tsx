@@ -25,7 +25,7 @@ export const CTASection: React.FC = () => {
 
         {/* Main Headline */}
         <FadeIn delay={0.1} y={30}>
-          <h2 className="hero-heading font-black uppercase text-center text-[clamp(2.2rem,7vw,100px)] leading-[1.05] mb-8 sm:mb-10 max-w-4xl">
+          <h2 className="hero-heading font-black uppercase text-center text-[clamp(2.2rem,7vw,100px)] leading-[1.05] mb-8 sm:mb-10 max-w-[1600px] [text-wrap:auto]">
             {t.ctaTitle}
           </h2>
         </FadeIn>

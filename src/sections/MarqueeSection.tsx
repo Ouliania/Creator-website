@@ -8,7 +8,7 @@ const row1Images = [
   '/videos/case2_main.mp4',
   '/videos/case1_main.mp4',
   '/videos/case3_main.mp4',
-  '/videos/tech_product.mp4',
+  '/videos/flowers-07.mp4',
 ];
 
 const row2Images = [

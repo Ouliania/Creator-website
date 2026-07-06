@@ -28,7 +28,7 @@ export const WorkflowSection: React.FC = () => {
     <section
       ref={sectionRef}
       id="workflow"
-      className="bg-white rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 -mt-10 sm:-mt-12 md:-mt-14 relative z-40 w-full overflow-hidden"
+      className="bg-white rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] rounded-b-[40px] sm:rounded-b-[50px] md:rounded-b-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 -mt-10 sm:-mt-12 md:-mt-14 relative z-40 w-full overflow-hidden"
     >
       {/* Decorative 3D Corner Images */}
       {/* Left side: 3D Object */}
