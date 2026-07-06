@@ -21,7 +21,7 @@ interface Project {
 const projectsData: Project[] = [
   {
     num: '01',
-    name: 'Elysian Jewelry',
+    name: 'Elysian',
     category: 'Промо продукта',
     col1Img1: '/images/case05/front.jpeg',
     col1Img2: '/images/case05/closeup.jpeg',
@@ -40,7 +40,7 @@ const projectsData: Project[] = [
   {
     num: '03',
     name: 'Aura Brand Identity',
-    category: 'Оформление соцсетей',
+    category: 'Бренд колясок',
     col1Img1: '/images/case02/front.jpeg',
     col1Img2: '/images/case02/closeup.jpeg',
     col2Img: '/videos/case2_main.mp4',
@@ -49,7 +49,7 @@ const projectsData: Project[] = [
   {
     num: '04',
     name: 'Solaris Digital',
-    category: 'Motion-промо',
+    category: 'Рекламная кампания',
     col1Img1: '/images/case03/front.jpeg',
     col1Img2: '/images/case03/closeup.jpeg',
     col2Img: '/videos/case3_main.mp4',
@@ -57,7 +57,7 @@ const projectsData: Project[] = [
   },
   {
     num: '05',
-    name: 'Zenith Cosmetics',
+    name: 'Zenith Accessories',
     category: '3D Видеопрезентация',
     col1Img1: '/images/case04/front.jpeg',
     col1Img2: '/images/case04/closeup.jpeg',

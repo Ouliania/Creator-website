@@ -47,7 +47,7 @@ export const translations = {
     projects: [
       {
         num: '01',
-        name: 'Elysian Jewelry',
+        name: 'Elysian',
         category: 'Product Promo',
       },
       {
@@ -58,16 +58,16 @@ export const translations = {
       {
         num: '03',
         name: 'Aura Brand Identity',
-        category: 'Social Grid Design',
+        category: 'Stroller Brand',
       },
       {
         num: '04',
         name: 'Solaris Digital',
-        category: 'Motion Promo',
+        category: 'Advertising Campaign',
       },
       {
         num: '05',
-        name: 'Zenith Cosmetics',
+        name: 'Zenith Accessories',
         category: '3D Visual Show',
       },
       {
@@ -171,7 +171,7 @@ export const translations = {
     projects: [
       {
         num: '01',
-        name: 'Elysian Jewelry',
+        name: 'Elysian',
         category: 'Промо продукта',
       },
       {
@@ -182,16 +182,16 @@ export const translations = {
       {
         num: '03',
         name: 'Aura Brand Identity',
-        category: 'Оформление соцсетей',
+        category: 'Бренд колясок',
       },
       {
         num: '04',
         name: 'Solaris Digital',
-        category: 'Motion-промо',
+        category: 'Рекламная кампания',
       },
       {
         num: '05',
-        name: 'Zenith Cosmetics',
+        name: 'Zenith Аксессуары',
         category: '3D Видеопрезентация',
       },
       {
