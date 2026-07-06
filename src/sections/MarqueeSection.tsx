@@ -13,7 +13,7 @@ const row1Images = [
 
 const row2Images = [
   '/videos/case4_main.mp4',
-  '/videos/case5_main.mp4',
+  '/videos/lip_gloss_08.mp4',
   '/videos/case6_main.mp4',
 ];
 
