@@ -13,14 +13,14 @@ export const WorkflowSection: React.FC = () => {
   });
 
   // Left side (Smiley): drifts rightwards, dips down, spins, scales on a curved (S-curve) path
-  const smileyX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-40, 60, -10, 110]);
-  const smileyY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-30, 25, 85, 150]);
+  const smileyX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-50, 140, -20, 200]);
+  const smileyY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], ['-10vh', '10vh', '35vh', '60vh']);
   const smileyRotate = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [0, 120, 180, 320]);
   const smileyScale = useTransform(scrollYProgress, [0, 0.5, 1], [0.85, 1.15, 0.85]);
 
   // Right side (Arrow): mirrors the left — drifts leftwards, dips down, spins opposite, scales on a curved path
-  const arrowX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [40, -60, 10, -110]);
-  const arrowY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [-30, 25, 85, 150]);
+  const arrowX = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [50, -140, 20, -200]);
+  const arrowY = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], ['-10vh', '10vh', '35vh', '60vh']);
   const arrowRotate = useTransform(scrollYProgress, [0, 0.33, 0.66, 1], [0, -120, -180, -320]);
   const arrowScale = useTransform(scrollYProgress, [0, 0.5, 1], [0.85, 1.15, 0.85]);
 
